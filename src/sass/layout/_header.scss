@@ -1,0 +1,40 @@
+nav {
+    .dropdown-menu {
+        left: -40px;
+        width: 230px;
+
+        .dropdown-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: auto;
+            margin-bottom: 8px;
+
+            img {
+                width: 30px;
+            }
+
+            button {
+                background-color: brown;
+                border: none;
+                color: white;
+                min-height: 35px;
+                max-height: 35px;
+            }
+        }
+    }
+    .profile-pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .badge {
+        background: red;
+        color: white;
+        top: -10px;
+        position: relative;
+        left: -5px;
+        border-radius: 50%;
+    }
+}
